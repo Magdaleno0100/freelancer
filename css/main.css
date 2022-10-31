@@ -1,0 +1,35 @@
+
+/*
+    Si 16px es igual a 1 rem, 
+    Podemos hacer la equivalencia para que 1 rem sea igual a 10 px, lo cuál es más fácil de calcular
+
+    Para ellos necesitamos que  aplicar la siguientre configuración: 
+
+    html{
+        font-size: 62.5%;
+    }
+
+    body{
+        font-size: 16px;
+    }
+
+    Con ello logramos que todo elemento creado dentro tenga una equivalencia en font size a 1rem igual a 10px
+*/
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 16px;
+}
+
+h1{
+    text-align: center;
+    font-size: 3.8rem;
+}
+
+span{
+    font-size: 2rem;
+}
+
